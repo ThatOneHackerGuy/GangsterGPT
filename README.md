@@ -22,3 +22,8 @@ apt install git
 pip install pyyaml
 pip install openai
 ~~~
+
+# SimpleX - Chat with me
+~~~
+https://simplex.chat/contact#/?v=1-2&smp=smp%3A%2F%2F0YuTwO05YJWS8rkjn9eLJDjQhFKvIYd8d4xG8X1blIU%3D%40smp8.simplex.im%2FLVsriTZ0kMKpgJe00DDNPoRKnMquw864%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEA8WpW7r2iw02BUA6263PA2CEPwnahMrWqBL3P7fNQDGk%253D%26srv%3Dbeccx4yfxxbvyhqypaavemqurytl6hozr47wfc7uuecacjqdvwpw2xid.onion
+~~~
