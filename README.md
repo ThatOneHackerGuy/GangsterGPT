@@ -12,3 +12,6 @@ Termux and Linux based ChatGPT behavior changing assistant and friend.
 * Python
 * OpenAI - use pip
 * PyYaml - use pip
+
+# WSL, or WSL2?
+You do not need them for this. I use the Windows Python package.
