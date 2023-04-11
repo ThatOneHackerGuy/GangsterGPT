@@ -10,10 +10,15 @@ Termux and Linux based ChatGPT behavior changing assistant and friend.
 
 # Linux Installation Requirements
 * Python
-* OpenAI - use pip
-* PyYaml - use pip
-
+~~~
+pip install openai
+pip install pyyaml
+~~~
 # Termux Installation
-* apt update && apt upgrade
-* pkg install python
-* apt install git
+~~~
+apt update && apt upgrade
+pkg install python
+apt install git
+pip install pyyaml
+pip install openai
+~~~
