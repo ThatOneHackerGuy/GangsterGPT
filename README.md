@@ -2,7 +2,7 @@
 Termux and Linux based ChatGPT behavior changing assistant and friend.
 
 # SimpleX
-[ThatOneHackerGuy](https://simplex.chat/contact#/?v=1-2&smp=smp%3A%2F%2FSkIkI6EPd2D63F4xFKfHk7I1UGZVNn6k1QWZ5rcyr6w%3D%40smp9.simplex.im%2FXb3_oRFXpf80mZOm8zx-rqftehjO71ny%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEApm9E_FVaE2lfYciR4sEAGU0ZVNUYeikiJZgRkibkS3I%253D%26srv%3Djssqzccmrcws6bhmn77vgmhfjmhwlyr3u7puw4erkyoosywgl67slqqd.onion)
+[ThatOneHackerGuy](https://simplex.chat/contact#/?v=1-2&smp=smp%3A%2F%2F0YuTwO05YJWS8rkjn9eLJDjQhFKvIYd8d4xG8X1blIU%3D%40smp8.simplex.im%2Fqnuh3kKceulSJrpf774SSTqqJb58da-C%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAafOMyHVV_pRFP9f1CYkRCxuM59AcTByOdUJTYgspnCA%253D%26srv%3Dbeccx4yfxxbvyhqypaavemqurytl6hozr47wfc7uuecacjqdvwpw2xid.onion)
 
 # Custom behaviors
 * Gangster / OG Behavior
