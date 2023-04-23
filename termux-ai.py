@@ -17,10 +17,10 @@ for section in cfg:
     
 openai.api_key = apikey
 def types():
-    os.system("cls")
+    os.system("clear")
     print("This script was developed by Parker Phillips, using Open AI.")
     time.sleep(5)
-    os.system("cls")
+    os.system("clear")
     print("* OG / Gangster behavior")
     print("* Devilish Guy behavior")
     print("* Type in your own place to generate a behavior. (e.g New York)")
@@ -31,37 +31,37 @@ def types():
     type = int(input("Select a text-based behavior for the AI (1-7): "))
     # A system that detects the input was "1" or not.
     if (type == 1):
-        os.system("cls")
+        os.system("clear")
         # Changes the behavior of the AI. Tells the AI to talk with some slang.
         place = input("Please input your preferred 'slang' captial. (e.g New York): ")
         friendstype = "Remember your a gangster from " + place + " too. Keep it cool with some slang when you talk to me."
-        os.system("cls")
+        os.system("clear")
     if (type == 2):
         # Changes the behavior of the AI. Tells the AI to act like a bad guy.
         friendstype = "Please act like a devilish guy. Remember you are my loyal friend. We just do not speak about being friends."
-        os.system("cls")  
+        os.system("clear")  
     if (type == 3):
         # Changes the behavior of the AI. You input the place / location.
         secondary_place = input("Please type in a place: ")
         friendstype = "Please act like you are from " + secondary_place + " when you conversate with me."
-        os.system("cls")
+        os.system("clear")
     if (type == 4):
         # Changes the behavior of the AI. Tells the AI to be like the people of today. Modernized.
         friendstype = "Please act like the people today. People that are living in a modern society. When you conversate with me."
-        os.system("cls")
+        os.system("clear")
     if (type == 5):
         # Changes the behavior of the AI. Tells the AI to act like you have been friends for a long time.
         friendstype = "Please act like were long time loyal friends when you conversate with me."        
-        os.system("cls")
+        os.system("clear")
     if (type == 6):
         # Changes the behavior of the AI. Tells the AI to act like it is a homeless AI.
         friendstype = "Please act like you are homeless."
-        os.system("cls")
+        os.system("clear")
     if (type == 7):
         # Changes the behavior of the AI. Telling it to only act like Shakespeeare.
         friendstype = "Please act like Shakespeare when you conversate with me."
         openai.Model.list()
-        os.system("cls")
+        os.system("clear")
     def initial_interaction():
         completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
