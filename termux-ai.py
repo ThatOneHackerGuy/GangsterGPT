@@ -74,6 +74,7 @@ def types():
         ai_response = completion.choices[0].message.content
         def continuation():
             response = input("Enter your response: ")
+            os.system("clear")
             if your_name != None:
                 completion = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
