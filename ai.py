@@ -67,7 +67,7 @@ def types():
         completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are my loyal friend." + friendstype + " It is time for our daily conversation."},
+            {"role": "system", "content": "You are my loyal friend." + friendstype + " It is time for you to talk to me."},
         ]
         )
         print(completion.choices[0].message.content)
@@ -75,27 +75,14 @@ def types():
         def continuation():
             response = input("Enter your response: ")
             os.system("cls")
-            if your_name != None:
-                completion = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "system", "content": "Please call me by " + your_name + " is my name. Only call me by name when needed. Respond to this message as if you were my friend. Do not greet me nor ask me about my day. I only want you to respond to the message I give you. Analyze the set of text. Make aure you read why I sent this in order to make sure your responss is fitting. I first sent this in response to you. You sent this: " + ai_response + " and I sent this: " + response},
-                    {"role": "system", "content": "Respond to this message as if you were my friend. Keep it on the down low by asking how my day was or a gernal question do not mention the term friend. " + friendstype + " Do not greet me nor ask me about my day. I only want you to respond to the message I give you. Analyze the set of text. Make sure you read why I sent this in order to make sure your response is fitting. I first sent this in response to you. You sent this:" + ai_response + " and I sent this: " + response},
-                ]
-                )
-                print(completion.choices[0].message.content)
-                return continuation()
-            else:
-                completion = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "system", "content": "Respond to this message using my previous message as a response. I first sent this in response to your message as you sent me this: " + ai_response + " and I sent this: " + response},    
-                ]
-                )
-                print(completion.choices[0].message.content)
-                return continuation()
-        return continuation()
-            
-        
+            completion = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "Respond to this message using my previous message as information to create your new response. I first sent, " + response + ". That was in response to what you sent which was this, " + ai_response + "Please create a response to what I first sent."},    
+            ]
+            )
+            print(completion.choices[0].message.content)
+            continuation()
+        continuation()
     initial_interaction()
 types()
