@@ -11,7 +11,6 @@ with open(path, "r") as file:
 # The "section" is later defined as "api_key".
 for section in cfg:
     apikey = cfg["api_key"]
-    your_name = cfg["your_name"]
     # print("Hello " + your_name + ", your API KEY is: " + apikey)
     # time.sleep(5)
     
